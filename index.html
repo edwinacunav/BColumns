@@ -6,6 +6,8 @@
 		<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<!-- http://jsfiddle.net/RTLun/
+			http://stackoverflow.com/questions/8222859/compact-arrangement-of-divs-in-two-directions/8223454#8223454 -->
 	</head>
 	<body>
 		<header>
@@ -13,11 +15,11 @@
 				<div class="row">
 					<div class="col-md-8 box gray">
 						<div class="row">
-							<div class="col-md-6 box">
+							<div class="col-sm-8 col-md-6 box">
 								<h3>DSGN <span class="glyphicons glyphicons-50-star"></span></h3>
 								<p>Texto de prueba</p>
 							</div>
-							<div class="col-md-6 box">
+							<div class="col-sm-4 col-md-6 box">
 								<h3>DSGN</h3>
 								<p>Texto de prueba</p>
 							</div>
@@ -32,10 +34,43 @@
 		<main>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 box orange">
+					<div class="col-sm-6 col-md-4 box orange min-box-250">
 							<h2>Projects</h2>
 					</div>
+					<div class="col-sm-3 col-md-4 box turquoise min-box-250">
+							<h2>Fondue</h2>
+					</div>
+					<div class="col-sm-3 col-md-4 box gray min-box-150">
+							<h2>Potter</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 box turquoise min-box-250">
+							<h2>Projects</h2>
+					</div>
+					<div class="col-md-4 box orange min-box-250">
+							<h2>Fondue</h2>
+					</div>
+					<div class="col-md-4 box turquoise min-box-250 overflow-box-50">
+							<h2>Potter</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 box orange min-box-200">
+							<h2>Projects</h2>
+					</div>
+					<div class="col-md-4 box turquoise min-box-200">
+							<h2>Fondue</h2>
+					</div>
+					<div class="col-md-4 box orange min-box-250 overflow-box-50">
+							<h2>Potter</h2>
+					</div>
+				</div>
+				<div class="row">
 					<div class="col-md-4 box turquoise">
+							<h2>Projects</h2>
+					</div>
+					<div class="col-md-4 box orange">
 							<h2>Fondue</h2>
 					</div>
 					<div class="col-md-4 box gray">

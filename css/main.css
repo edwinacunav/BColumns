@@ -1,16 +1,45 @@
 h1, h2, h3 {
 	margin: 0 auto; padding: 0 auto;
 }
-.container  {
+/* .container  {
+	margin: 0 auto;
+	padding: 0 auto;
+} */
+.row {
 	margin: 0 auto;
 	padding: 0 auto;
 }
-.row { margin: 0 auto; padding: 0 auto; }
-.box {
+/* .box {
 	margin: 0 auto;
 	padding: 0 auto;
 	min-height: 22rem;
+} */
+.dif-box-sizes {
+	-moz-column-count: 3;
+    -moz-column-gap: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0;
+    column-count: 3;
+    column-gap: 0;
+    width: 450px;
 }
 .gray {	background-color: lightgray; }
 .turquoise { background-color: turquoise; }
 .orange { background-color: orange; }
+.min-box-150 {
+	height: 200px;
+}
+.min-box-200 {
+	height: 200px;
+}
+.min-box-250 {
+	height: 250px;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+.overflow-box-50 {
+	margin-top: -50px;
+}
+.overflow-box-100 {
+	margin-top: -100px;
+}
