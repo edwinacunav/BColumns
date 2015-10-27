@@ -1,0 +1,16 @@
+h1, h2, h3 {
+	margin: 0 auto; padding: 0 auto;
+}
+.container  {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.row { margin: 0 auto; padding: 0 auto; }
+.box {
+	margin: 0 auto;
+	padding: 0 auto;
+	min-height: 22rem;
+}
+.gray {	background-color: lightgray; }
+.turquoise { background-color: turquoise; }
+.orange { background-color: orange; }
